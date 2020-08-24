@@ -1,0 +1,24 @@
+{
+  "name": "cook-server-logic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.2.0",
+    "cook-wise-commons": "^1.0.0",
+    "cook-wise-data": "^1.0.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0",
+    "nyc": "^15.1.0"
+  },
+  "scripts": {
+    "test": "npx mocha *.spec.js",
+    "test:coverage": "npx nyc --reporter=text --reporter=lcov npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

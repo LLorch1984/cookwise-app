@@ -1,0 +1,15 @@
+{
+  "name": "cook-wise-node-commons",
+  "version": "1.0.0",
+  "main": "jwt-promised.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
